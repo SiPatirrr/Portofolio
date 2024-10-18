@@ -1,0 +1,130 @@
+/* Halaman Home */
+
+body {
+    background-image: url(/Portofolio/assets/background.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.namaweb {
+    padding: 10px;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+.namaweb:hover {
+    cursor: default;
+}
+
+a {
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    margin-right: 20px;
+    color:white;
+}
+
+.button li {
+    padding: 10px;
+}
+
+a:hover {
+    color: gray;
+    cursor: default;
+}
+
+.tulisan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+.tulisan h1 {
+    color: azure;
+    margin: 0px;
+}
+
+.tulisan p {
+    color: azure;
+}
+
+footer {
+    margin-top: 6rem;
+    color: darkgrey;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+}
+
+/* Halaman About Me */
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    margin: 5rem 5rem;
+    background-color:;
+}
+
+.fotoku {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+
+.aboutme p {
+    color: azure;
+}
+
+.aboutme h1 {
+    color: aliceblue;
+}
+
+.judulweb {
+    padding-left: 40rem;
+    color: beige;
+}
+
+/* Halaman Project */
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: grey;
+}
+
+.logoscratch {
+    width: 30%;
+    height: 30%;
+}
+
+.logomit {
+    width: 20%;
+    height: 20%;
+}
+
+.item {
+    color: whitesmoke;
+}
